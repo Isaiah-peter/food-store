@@ -1,0 +1,44 @@
+.background-img {
+    background: linear-gradient(to Right,#fff 40%, #00000029 40%);
+}
+
+.t-raduius {
+    border-radius: 100% 0 0 0;
+}
+
+.lists li:active {
+    color: #FF6B6B;
+}
+
+.green-part {
+    width: 50px;
+    height: 50px;
+    background: #4EC6A6 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.white-part {
+    width: 32px;
+    height: 41px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    position: relative;
+    border-radius:58% 42% 63% 37% / 35% 31% 69% 65%;
+}
+
+.egg-part {
+    width: 16px;
+    height: 16px;
+    background: transparent linear-gradient(128deg, #EDAD0D 0%, #FF6B6B 100%) 0% 0% no-repeat padding-box;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50% , -50%);
+    border-radius: 100%;
+}
+
+.zeco {
+    line-height: 17px;
+}
