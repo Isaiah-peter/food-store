@@ -15,7 +15,7 @@ const Recipes = () => {
         </div>
         <div className="flex-1 flex items-center">
           <div className="pl-10">
-            <img src={Dinners} alt="" />
+            <img src={Dinners} alt />
             <img src={recipes} alt />
             <button className="py-2 px-4 uppercase bg-[#A2DE96]">
               Shop Now

@@ -22,7 +22,7 @@ const LatestRecipe = () => {
       <div className="flex items-center gap-20">
         <div className=" flex items-end">
           <img className='w-[110px] h-[110px] object-cover top-0 left-[-20px] rounded-full z-10' src={Egg} />
-          <div className="relative ml-[-20px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
+          <div className="relative ml-[-20px] min-w-[180px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
             <h3 className='font-light text-[12px]'>Portobello Baked Eggs with avocado & bread</h3>
             <h2 className='text-[#4EC6A6] text-[16px]'>£8</h2>
 
@@ -33,7 +33,7 @@ const LatestRecipe = () => {
         </div>
         <div className=" flex items-end">
           <img className='w-[110px] h-[110px] object-cover top-0 left-[-20px] rounded-full z-10' src={Plate} />
-          <div className="relative ml-[-20px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
+          <div className="relative ml-[-20px] min-w-[180px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
             <h3 className='font-light text-[12px]'>Summery salmon, beetroot & spicy mix</h3>
             <h2 className='text-[#4EC6A6] text-[16px]'>£15</h2>
 
@@ -44,7 +44,7 @@ const LatestRecipe = () => {
         </div>
         <div className=" flex items-end">
           <img className='w-[110px] h-[110px] object-cover top-0 left-[-20px] rounded-full z-10' src={Avocado} />
-          <div className="relative ml-[-20px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
+          <div className="relative ml-[-20px] min-w-[180px] flex flex-col py-[14px] px-[24px] bg-[#fff] drop-shadow w-[180px] overflow-hidden">
             <h3 className='font-light text-[12px]'>Backed Avocado Egg with herbs</h3>
             <h2 className='text-[#4EC6A6] text-[16px]'>£8</h2>
 
